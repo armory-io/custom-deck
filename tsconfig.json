@@ -1,0 +1,48 @@
+{
+  "buildOnSave": false,
+  "compileOnSave": true,
+  "compilerOptions": {
+    "allowJs": true,
+    "baseUrl": "src",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "jsx": "react",
+    "lib": [
+      "es2016",
+      "dom",
+      "es2017.object"
+    ],
+    "moduleResolution": "node",
+    "module": "commonjs",
+    "noEmitHelpers": false,
+    "noImplicitAny": false,
+    "noImplicitReturns": true,
+    "noImplicitThis": false, // should really get to a place where we can turn this on
+    "noUnusedLocals": false,
+    "noUnusedParameters": false,
+    "outDir": "transpiled",
+    "paths": {
+    },
+    "pretty": true,
+    "removeComments": true,
+    "rootDir": ".",
+    "skipLibCheck": true,
+    "sourceMap": true,
+    "strictNullChecks": false, // should really get to a place where we can turn this on
+    "target": "es6",
+    "typeRoots": [
+      "node_modules/@types"
+    ]
+  },
+  "exclude": [
+    "build",
+    "node",
+    "node_modules",
+    "transpiled"
+  ],
+  "include": [
+    "test/helpers/custom-matchers.d.ts",
+    "src/**/*.ts",
+    "src/**/*.tsx"
+  ]
+}
