@@ -167,10 +167,10 @@
     ui-router-visualizer "^4.0.0"
     ui-select "^0.19.6"
 
-"@spinnaker/kubernetes@0.0.30":
-  version "0.0.30"
-  resolved "https://registry.yarnpkg.com/@spinnaker/kubernetes/-/kubernetes-0.0.30.tgz#cbd27884773c5c870075df888bf9cc8cf8ffde61"
-  integrity sha512-8L3wBTFahWN6xkpFSiOg0uIJaUdVqJk7OI2SZeiErYn4E90p1oZWnHgV0ft14SOMyuEK/tQx8BY9ibinrJnzbg==
+"@spinnaker/kubernetes@0.0.32":
+  version "0.0.32"
+  resolved "https://registry.yarnpkg.com/@spinnaker/kubernetes/-/kubernetes-0.0.32.tgz#41c5dbc3c0a97db65421d327d69da1ecf14886c8"
+  integrity sha512-1udXqetdW1M0Cjzs1kfxCUFpHvaCT0XkFur6g92sGJtosbruQ3wXzI/sF8F3rzbk5mVpyXzlI3gl6hJEhmENqg==
 
 "@spinnaker/styleguide@1.0.15":
   version "1.0.15"
