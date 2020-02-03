@@ -30,7 +30,7 @@
     "@spinnaker/docker": "0.0.50",
     "@spinnaker/amazon": "0.0.232",
     "@spinnaker/google": "0.0.9",
-    "@spinnaker/kubernetes": "0.0.30",
+    "@spinnaker/kubernetes": "0.0.32",
     "@spinnaker/appengine": "0.0.8",
     "@spinnaker/ecs": "0.0.251",
     "@spinnaker/kayenta": "0.0.88",

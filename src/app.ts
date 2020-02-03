@@ -17,6 +17,8 @@ import { KAYENTA_MODULE } from '@spinnaker/kayenta';
 import { ECS_MODULE } from '@spinnaker/ecs';
 import { APPENGINE_MODULE } from '@spinnaker/appengine';
 
+import { MANIFESTSTATUS_SHIM } from './spinnaker.modules/manifestStatusShim';
+
 const modules = [
   CORE_MODULE,
   AMAZON_MODULE,
@@ -27,6 +29,7 @@ const modules = [
   KUBERNETES_V2_MODULE,
   APPENGINE_MODULE,
   KAYENTA_MODULE,
+  MANIFESTSTATUS_SHIM,
 ];
 
 module('netflix.spinnaker', modules);
