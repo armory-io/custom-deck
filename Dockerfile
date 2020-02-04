@@ -1,3 +1,12 @@
+FROM node:10.15.1 as builder
+
+COPY . workdir
+WORKDIR workdir
+
+RUN npm install --global yarn
+RUN yarn install
+RUN yarn build
+
 FROM alpine:3.10.2
 
 RUN apk --no-cache --update add \
@@ -11,9 +20,9 @@ RUN apk --no-cache --update add \
   libxml2-dev \
   && true
 
-COPY webpack /opt/deck/html/
+COPY --from=builder /workdir/build/webpack /opt/deck/html/
 
-COPY dockerbin /opt/deck/bin
+COPY --from=builder /workdir/docker /opt/deck/bin/
 
 WORKDIR /opt/deck
 
