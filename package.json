@@ -67,7 +67,7 @@
     "debug": "^3.1.0",
     "diff": "^3.3.1",
     "diff-match-patch": "^1.0.0",
-    "dompurify": "^1.0.4",
+    "dompurify": "^2.0.3",
     "enzyme": "^3.8.0",
     "flatpickr": "4.3.0",
     "formik": "^1.4.1",
